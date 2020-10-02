@@ -2,7 +2,7 @@
 
 # Update and Upgrade system
 sudo apt -y update
-sudo apt -y upgrade
+#sudo apt -y upgrade
 
 # Allocate swap memory file
 sudo fallocate -l 3G /swapfile 
