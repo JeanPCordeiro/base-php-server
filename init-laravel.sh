@@ -6,4 +6,6 @@ composer require laravel/ui
 php artisan ui vue --auth
 npm install && npm run dev
 php artisan adminlte:install --force --type=full
-php artisan adminlte:plugins install
+php artisan adminlte:install --force --only=main_views
+php artisan adminlte:plugins installA
+cd
