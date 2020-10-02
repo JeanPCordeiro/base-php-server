@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # Update and Upgrade system
 sudo apt -y update
 sudo apt -y upgrade
@@ -20,7 +22,7 @@ sudo apt -y install nodejs
 password=`cat ~/bitnami_application_password`
 curl -fsSL https://code-server.dev/install.sh | sh
 cat <<EOF > ~/.config/code-server/config.yaml
-bind-addr: 0.0.0.0:8080
+bind-addr: 0.0.0.0:8000
 auth: password
 password: $password
 cert: false
